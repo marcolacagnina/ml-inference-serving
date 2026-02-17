@@ -1,0 +1,45 @@
+
+# ----------------------
+# Python artifacts
+# ----------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+build/
+dist/
+
+
+# Virtual Environment
+venv/
+env/
+.env
+
+# ----------------------
+# ML artifacts
+# ----------------------
+/data/
+/models/
+mlruns/       
+mlflow.db
+outputs/
+
+
+# ----------------------
+# OS files
+# ----------------------
+.DS_Store
+Thumbs.db
+
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+
+
+# ----------------------
+# Docker artifacts
+# ----------------------
+*.tar               
+*.img               
