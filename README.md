@@ -2,7 +2,7 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
 ![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-blue)
-![FastAPI](https://img.shields.io/badge/FastAPI-1.24.1-green)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.115.0-green)
 ![Docker](https://img.shields.io/badge/Docker-blue)
 
 Demo showing how to serve a Hugging Face Transformers sentiment analysis model via FastAPI and Docker.
