@@ -19,7 +19,3 @@ def predict(input_data: InputText):
 @app.get("/")
 def home():
     return {"message": "API is running. Go to /docs to test it."}
-
-@app.get("/health")
-def health_check():
-    return {"status": "ok", "model_loaded": classifier is not None}
