@@ -1,3 +1,13 @@
+---
+title: ML Inference Serving
+emoji: 🚀
+colorFrom: blue
+colorTo: green
+sdk: docker
+pinned: false
+license: mit
+---
+
 # ML Inference Serving Application
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow)
