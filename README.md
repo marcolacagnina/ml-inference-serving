@@ -21,7 +21,7 @@ If you want to run this locally:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/marcolacagnina/ml-inference-serving.git](https://github.com/marcolacagnina/ml-inference-serving.git)
+    git clone https://github.com/marcolacagnina/ml-inference-serving.git
     cd ml-inference-serving/
     ```
 
@@ -39,9 +39,10 @@ If you want to run this locally:
 ## Usage (cURL)
 Send a POST request to `/predict` with JSON:
 ```bash
-curl -X POST "[https://marcolac-ml-inference-serving.hf.space/predict](https://marcolac-ml-inference-serving.hf.space/predict)" \
+curl -X POST "https://marcolac-ml-inference-serving.hf.space/predict" \
      -H "Content-Type: application/json" \
      -d '{"text": "Nice to meet you!"}'
+```
 
 Example response:
  ```bash
